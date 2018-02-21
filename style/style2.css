@@ -9,22 +9,24 @@ header{
   padding-bottom: 5px;
   display: flex;
 }
-.logo{
+.logos{
   display: flex;
-  height: 70px;
+  height: 74px;
   margin: auto auto auto 10px;
 }
 img{
   height: 100%;
+}
+#Jo{
   border-radius: 50%;
   border: 1px solid white;
 }
-.logo a{
+.logo{
   margin: auto auto auto 10px;
-  width: 70px;
+  height: 100%;
 }
-.logo h2{
-  margin: auto auto auto 10px;
+h2{
+  margin: auto auto auto 15px;
   font-weight: normal;
 }
 .nav{
@@ -50,16 +52,42 @@ img{
 .menu li :hover{
   border-bottom: 1px solid white;
 }
-
+.atel{
+  display: none;
+}
 #search{
   width: 30%;
   margin: auto 10px auto auto;
 }
 
 /********************************* Adaptation pour mobile ***********************************/
-@media only screen and (max-device-width : 768px){
+@media only screen and (max-device-width : 767px){
 header{
   display: block;
+}
+.logos{
+  padding-top: 3px;
+}
+.logo,.logos{
+  margin: auto;
+}
+.logos h2{
+  display: none;
+}
+.atel{
+  display: inherit;
+  margin: auto;
+}
+.imgtel{
+  height: 50%;
+  margin: auto;
+}
+.nav{
+  margin: auto;
+  display: none;
+}
+.menu, #search{
+  margin: auto;
 }
 
 }
