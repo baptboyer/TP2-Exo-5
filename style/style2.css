@@ -9,6 +9,7 @@ header{
   background-color: #BF5D2C;
   color: white;
   padding-bottom: 5px;
+  padding-top: 5px;
   display: flex;
 }
 .logos{
@@ -18,10 +19,6 @@ header{
 }
 img{
   height: 100%;
-}
-#Jo{
-  border-radius: 50%;
-  border: 1px solid white;
 }
 .logo{
   margin: auto auto auto 10px;
@@ -87,13 +84,14 @@ p{
   flex-wrap: wrap;
 }
 .bloc{
-  height: 300px;
+  height: 270px;
   margin: auto;
   text-align: center;
   width: 25%;
 }
 .bloc img{
-  height: 80%;
+  width: 70%;
+  height: auto;
 }
 /********************************* Adaptation pour mobile ***********************************/
 @media only screen and (max-width : 767px){
@@ -127,8 +125,14 @@ header{
 .bloc{
   width: 100%;
 }
+.bloc img{
+  height: 83%;
+  width: auto;
+}
 
 }
+/********************************* Adaptation pour tablettes ***********************************/
+
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px)
@@ -150,5 +154,9 @@ and (orientation : portrait){
   }
   .bloc{
     width: 50%;
+  }
+  .bloc img{
+    height: 83%;
+    width: auto;
   }
 }
