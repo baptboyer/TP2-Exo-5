@@ -61,7 +61,7 @@ h2{
 }
 
 /********************************* Adaptation pour mobile ***********************************/
-@media only screen and (max-device-width : 767px){
+@media only screen and (max-width : 767px){
 header{
   display: block;
 }
@@ -90,4 +90,24 @@ header{
   margin: auto;
 }
 
+}
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait){
+  header{
+    display: block;
+  }
+  .logos{
+    padding-top: 3px;
+  }
+  .logos,.nav,.menu,#search{
+    margin: auto;
+  }
+  .logo{
+    margin: auto 2% auto auto;
+  }
+  .logos h2{
+    margin: auto auto auto 2%;
+  }
 }
