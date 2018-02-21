@@ -84,8 +84,7 @@ p{
   flex-wrap: wrap;
 }
 .bloc{
-  height: 270px;
-  margin: auto;
+  height: 100%;
   text-align: center;
   width: 25%;
 }
@@ -124,12 +123,13 @@ header{
 }
 .bloc{
   width: 100%;
+    height: 270px;
+    margin: auto;
 }
 .bloc img{
   height: 83%;
   width: auto;
 }
-
 }
 /********************************* Adaptation pour tablettes ***********************************/
 
@@ -153,6 +153,8 @@ and (orientation : portrait){
     margin: auto auto auto 2%;
   }
   .bloc{
+    height: 270px;
+    margin: auto;
     width: 50%;
   }
   .bloc img{
