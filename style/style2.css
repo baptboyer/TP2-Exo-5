@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+header{
+  background-color: #AA4732;
+  color: white;
+  padding-bottom: 5px;
+  display: flex;
+}
+.logo{
+  display: flex;
+  height: 70px;
+  margin: auto auto auto 10px;
+}
+img{
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.logo a{
+  margin: auto auto auto 10px;
+  width: 70px;
+}
+.logo h2{
+  margin: auto auto auto 10px;
+  font-weight: normal;
+}
+.nav{
+  padding: 0;
+  margin : auto 10px auto auto;
+}
+.menu {
+  display: flex;
+}
+.menu a {
+	text-decoration: none;
+  color: white;
+}
+.menu{
+  padding: 0px;
+  margin: 0px;
+}
+.menu li{
+  list-style-type: none;
+  margin: auto 10px auto auto;
+
+}
+.menu li :hover{
+  border-bottom: 1px solid white;
+}
+
+#search{
+  width: 30%;
+  margin: auto 10px auto auto;
+}
+
+/********************************* Adaptation pour mobile ***********************************/
+@media only screen and (max-device-width : 768px){
+header{
+  display: block;
+}
+
+}
