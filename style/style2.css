@@ -2,7 +2,7 @@ body{
   margin: 0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
-  background-color: #DCDCDC
+  background-color: #DCDCDC;
 }
 /**********MENU*************/
 header{
@@ -27,7 +27,7 @@ img{
   margin: auto auto auto 10px;
   height: 100%;
 }
-h2{
+.logos h2{
   margin: auto auto auto 15px;
   font-weight: normal;
 }
@@ -63,12 +63,38 @@ h2{
 }
 /********CONTENU***********/
 
-#contenu img{
+#jolarge{
     max-width: 100%;
     height: auto;
 }
 
-
+#titre{
+  text-align: center;
+}
+#parag{
+  background-color: #BF5D2C;
+  margin: auto 3% auto 3%;
+  text-align: justify;
+  color: white;
+  padding: 1%;
+}
+p{
+  margin: 0;
+}
+#blocs{
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bloc{
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+}
+.bloc img{
+  height: 80%;
+}
 /********************************* Adaptation pour mobile ***********************************/
 @media only screen and (max-width : 767px){
 header{
