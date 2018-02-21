@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $( "#logo" ).click(function() {
+  $( "#burger" ).click(function() {
     var $t = $('.nav');
 
     if ($t.is(':visible')) {
