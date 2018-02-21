@@ -5,10 +5,8 @@ $(document).ready(function() {
 
     if ($t.is(':visible')) {
         $t.slideUp();
-        // Other stuff to do on slideUp
     } else {
         $t.slideDown();
-        // Other stuff to down on slideDown
     }
   });
 });
