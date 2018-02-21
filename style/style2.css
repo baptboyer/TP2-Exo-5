@@ -89,7 +89,7 @@ p{
   width: 25%;
 }
 .bloc img{
-  width: 70%;
+  width: 73%;
   height: auto;
 }
 /********************************* Adaptation pour mobile ***********************************/
@@ -123,8 +123,8 @@ header{
 }
 .bloc{
   width: 100%;
-    height: 270px;
-    margin: auto;
+  height: 270px;
+  margin: auto;
 }
 .bloc img{
   height: 83%;
