@@ -78,7 +78,7 @@ img{
 p{
   margin: 0;
 }
-#blocs{
+.blocs{
   margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
@@ -92,6 +92,31 @@ p{
 .bloc img{
   width: 70%;
   height: auto;
+}
+.form{
+    width: 50%;
+}
+.carte{
+    width: 50%;
+}
+.carte h2,.form h2,.form input,.form textarea,.form label,.carte iframe{
+margin: auto 6% auto 6%;
+margin-bottom: 1%;
+}
+.form input,.form textarea{
+display: block;
+}
+iframe{
+  width: 88%;
+}
+#nom, #prenom,#date,#lieu{
+  display: inline-block;
+}
+.form textarea{
+  width: 80%;
+}
+.form label{
+  font-size: 15px;
 }
 /********************************* Adaptation pour mobile ***********************************/
 @media only screen and (max-width : 767px){
@@ -129,6 +154,12 @@ header{
 }
 .bloc img{
   width: 50%;
+}
+.form{
+    width: 100%;
+}
+.carte{
+    width: 100%;
 }
 }
 /********************************* Adaptation pour tablettes ***********************************/
