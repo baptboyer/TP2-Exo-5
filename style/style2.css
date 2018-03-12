@@ -105,12 +105,17 @@ margin-bottom: 1%;
 }
 .form input,.form textarea{
 display: block;
+box-sizing: border-box;
 }
 iframe{
   width: 88%;
 }
 #nom, #prenom,#date,#lieu{
   display: inline-block;
+  width: 38%;
+}
+#mail,#ta{
+  width: 88%;
 }
 .form textarea{
   width: 80%;
@@ -160,6 +165,10 @@ header{
 }
 .carte{
     width: 100%;
+}
+#nom, #prenom,#date,#lieu{
+  display: block;
+  width: 88%;
 }
 }
 /********************************* Adaptation pour tablettes ***********************************/
