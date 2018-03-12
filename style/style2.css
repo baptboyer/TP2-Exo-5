@@ -93,19 +93,20 @@ p{
   width: 70%;
   height: auto;
 }
-.form{
+.form,.carte{
     width: 50%;
+    height: 100%;
 }
-.carte{
-    width: 50%;
-}
-.carte h2,.form h2,.form input,.form textarea,.form label,.carte iframe{
-margin: auto 6% auto 6%;
+.carte h2,.form h2,.form input,.form textarea,.form label, #map{
+margin: auto 6% 2% 6%;
 margin-bottom: 1%;
 }
 .form input,.form textarea{
 display: block;
 box-sizing: border-box;
+}
+.form textarea{
+  height: 10vh;
 }
 iframe{
   width: 88%;
@@ -117,11 +118,24 @@ iframe{
 #mail,#ta{
   width: 88%;
 }
-.form textarea{
-  width: 80%;
-}
 .form label{
   font-size: 15px;
+}
+#submit{
+  margin: auto 6% auto auto;
+}
+#map{
+  height: 450px;
+  width: 88%;
+}
+/*********FOOTER*********/
+footer{
+  background-color: #BF5D2C;
+  color: white;
+}
+footer p{
+  text-align: right;
+  margin: 1% 2% auto auto;
 }
 /********************************* Adaptation pour mobile ***********************************/
 @media only screen and (max-width : 767px){
@@ -170,6 +184,9 @@ header{
   display: block;
   width: 88%;
 }
+#submit{
+  width: 88%;
+}
 }
 /********************************* Adaptation pour tablettes ***********************************/
 
@@ -195,5 +212,8 @@ and (orientation : portrait){
   .bloc{
     height: 50%;
     width: 50%;
+  }
+  #submit{
+    width: 88%;
   }
 }
